@@ -1,48 +1,44 @@
-# Project Title
+# Solana Functionality Implementation
+
+## Project Title
 
 Solana Functionality Implementation
 
 ## Description
 
-This project focuses on implementing specific functionalities for buttons in a provided frontend project. The primary objectives include generating a new Solana account and airdropping it, connecting to the Phantom Wallet, and transferring SOL between the created and connected accounts. It is a solution to a Metacraft challenge for Solana midule.
+This project is dedicated to implementing specific functionalities for buttons within a provided frontend project. The main goals include generating a new Solana account, airdropping funds to it, connecting to the Phantom Wallet, and transferring SOL between the created and connected accounts. It serves as a solution to a Metacraft challenge for the Solana module.
 
 ## Getting Started
 
 ### Installing
-  
-  1. Clone the repository using:
-  ```
-    git clone https://github.com/your-username/solana-functionality.git
-  ```
-  2. To start the project locally:
-     ```
-       npm install
-       npm start
-    ```
+
+1. Clone the repository using:
+
+   ```bash
+   git clone https://github.com/your-username/solana-functionality.git
+   ```
+
+To start the project locally:
+
+```
+npm install
+npm start
+
+```
 
 ## Task Objectives
 
-  1. Create a new Solana account:
-        - Functionality:
-            Generate a new KeyPair at the backend.
-            Airdrop 2 SOL to the newly created KeyPair.
+### Create a new Solana account:
 
-  2. Connect to Phantom Wallet:
-        - Functionality:
-            Connect to the Phantom Wallet if it exists.
+#### Functionality:
 
-  3. Transfer SOL to New Wallet:
-        - Functionality:
-            Trigger a transfer of 1 SOL from the account generated in step 1 to the account connected in step 2.
+Generate a new KeyPair at the backend.
+Airdrop 2 SOL to the newly created KeyPair.
 
-## Authors
+#### Connect to Phantom Wallet:
 
-Contributors names and contact info
+Connect to the Phantom Wallet if it exists.
 
-Samuel Dahunsi
-[@psalmuel1st](https://twitter.com/psalmuel1st)
+#### Transfer SOL to New Wallet:
 
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
+Trigger a transfer of 1 SOL from the account generated in step 1 to the account connected in step 2.
